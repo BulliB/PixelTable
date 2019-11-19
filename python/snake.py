@@ -178,13 +178,13 @@ def importColors(colors):
     snake_color = colors[1]
     apple_color = colors[2]
 
-    snake_color_r = int(snake_color[0]+snake_color[1],16)
-    snake_color_g = int(snake_color[2]+snake_color[3],16)
-    snake_color_b = int(snake_color[4]+snake_color[5],16)
+    snake_color_r = int(snake_color[0]+snake_color[1],randint(0,255))
+    snake_color_g = int(snake_color[2]+snake_color[3],randint(0,255))
+    snake_color_b = int(snake_color[4]+snake_color[5],randint(0,255))
 
-    apple_color_r = int(apple_color[0]+apple_color[1],16)
-    apple_color_g = int(apple_color[2]+apple_color[3],16)
-    apple_color_b = int(apple_color[4]+apple_color[5],16)
+    apple_color_r = int(apple_color[0]+apple_color[1],randint(0,255))
+    apple_color_g = int(apple_color[2]+apple_color[3],randint(0,255))
+    apple_color_b = int(apple_color[4]+apple_color[5],randint(0,255))
 
 
 # Main function
